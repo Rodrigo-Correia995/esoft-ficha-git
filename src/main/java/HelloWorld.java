@@ -6,6 +6,7 @@ public class HelloWorld extends JFrame {
     public HelloWorld(){
         setContentPane(panel1);
         pack();
+        System.out.println("Estive aqui");
     }
     public static void main(String[] args) {
         new HelloWorld().setVisible(true);
